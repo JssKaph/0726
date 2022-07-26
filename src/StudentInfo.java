@@ -9,15 +9,11 @@ public class StudentInfo {
 		System.out.println("학생 이름 : ");
 		String name = sc.nextLine();
 		
-		System.out.println("학번 : ");
-		String hakbun = sc.nextLine();
-		
 		System.out.println("주소 : ");
 		String address = sc.nextLine();
 		
 		System.out.println("날짜 : " + today); // 프린트+변수 : 해당 변수 출력
 		System.out.println("이름은 : " + name);
-		System.out.println("학번은 : " + hakbun);
 		System.out.println("주소는 : " + address );
 	}
 }
