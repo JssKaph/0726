@@ -1,3 +1,9 @@
+/*
+ * Author :
+ * When :
+ * Objectives :
+ * Environment : OS : Windows 10, JDK Version : 11.0.16, Editor : Eclipse 2022-06 
+ */
 import java.util.Scanner; // 자바 > 유틸 > 스캐너 사용, import 하나가 생략
 
 public class StudentInfo {
@@ -12,7 +18,7 @@ public class StudentInfo {
 		System.out.println("주소 : ");
 		String address = sc.nextLine();
 		
-		System.out.println("날짜 : " + today); // 프린트+변수 : 해당 변수 출력
+		System.out.println("날짜 : " + today); // 프린트 + 변수 : 해당 변수 출력
 		System.out.println("이름은 : " + name);
 		System.out.println("주소는 : " + address );
 	}
